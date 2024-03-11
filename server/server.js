@@ -19,6 +19,7 @@ app.use('/api/requests', requestsRoute);
 
 const PORT = process.env.PORT || 5000;
 const path = require("path");
+_dirname = path.resolve();
 
 // heroku deployment
 if(process.env.NODE_ENV === "production"){
