@@ -17,7 +17,7 @@ app.use('/api/transactions', transactionsRoute);
 // call the end points in routes folder here 
 app.use('/api/requests', requestsRoute);
 
-const PORT = process.env.PORT || 5000;
+const PORT = 5000;
 const path = require("path");
 _dirname = path.resolve();
 
