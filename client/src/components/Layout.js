@@ -123,8 +123,8 @@ function Layout({children}) {
              </div>
              <div>
                 <h1 className='text-sm text-secondary underline'>
-                 
-                  {user?.firstName} {user?.lastName}
+              
+                 {user?.isAdmin ? "ADMIN" : "USER"}  : {user?.firstName} {user?.lastName}
               
                 </h1>
              </div>
